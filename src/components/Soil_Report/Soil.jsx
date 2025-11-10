@@ -1325,7 +1325,25 @@ const SoilReport = () => {
                   </div>
                 </div>
 
-               
+                {/* Footer Section */}
+                <div className="text-center py-8 bg-blue-50 rounded-lg border-2 border-blue-200">
+                  <p className="text-xl font-bold text-gray-700 mb-6">
+                    {t.healthySoil}
+                  </p>
+                  <div className="flex justify-center">
+                    <button
+                      onClick={handlePrint}
+                      className="px-8 py-4 bg-purple-600 text-white font-bold rounded-lg hover:bg-purple-700 transition-all duration-200 shadow-md hover:shadow-lg"
+                    >
+                      <span className="flex items-center gap-2">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                        </svg>
+                        {t.print}
+                      </span>
+                    </button>
+                  </div>
+                </div>
               </div>
             )}
           </div>

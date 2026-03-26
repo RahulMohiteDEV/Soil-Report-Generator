@@ -25,6 +25,4 @@ This application helps generate a **structured soil report based on user inputs*
 - HTML5
 - CSS3
 
----
 
-## 📂 Project Structure

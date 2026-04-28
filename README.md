@@ -23,6 +23,6 @@ This application helps generate a **structured soil report based on user inputs*
 - Tailwind CSS
 - JavaScript
 - HTML5
-- CSS3
+- CSS3.
 
 
